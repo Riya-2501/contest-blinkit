@@ -86,4 +86,28 @@
     text-align: center;
  }
  
+
+ @media screen and (max-width:500px) {
+    #hero-section{
+        display: none;
+    }
+    nav{
+        flex-direction: column;
+    }
+    #delivery-div{
+        border: none !important;
+    }
+
+    #search_bar{
+        display: flex;
+        align-items: center;
+    }
+    #search_bar>input{
+        width: 80vw;
+    }
+
+    .scorllable-div{
+        margin-top: 50px;
+    }
+ }
  
